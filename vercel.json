@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/toeic-timer",
+      "destination": "/apps/toeic-timer/dist/index.html"
+    },
+    {
+      "source": "/toeic-timer/:path*",
+      "destination": "/apps/toeic-timer/dist/:path*"
+    }
+  ]
+}
